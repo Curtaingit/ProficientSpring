@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean id="car" class="com.curtain.proficient.ioc._5loadbean.Car">
+        <property name="color" value="红色"></property>
+        <property name="speed" value="20"></property>
+        <property name="name" value="bmw"></property>
+    </bean>
+
+</beans>

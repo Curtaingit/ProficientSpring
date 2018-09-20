@@ -19,7 +19,7 @@ public class DynamicProxy {
 
         WordService proxy = (WordService) Proxy.newProxyInstance(target.getClass().getClassLoader(),target.getClass().getInterfaces(),handler);
 
-        proxy.start("biu");
+        proxy.start("biubiubiu");
 
     }
 }
