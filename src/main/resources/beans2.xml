@@ -3,13 +3,13 @@
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
        xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
 
-    <bean id="car" class="com.curtain.proficient.ioc._5loadbean.Car">
+    <bean id="car" class="com.curtain.proficient._1ioc._5loadbean.Car">
         <property name="color" value="蓝色"></property>
         <property name="speed" value="200"></property>
         <property name="name" value="bmw"></property>
     </bean>
 
-    <bean id="people" class="com.curtain.proficient.ioc._5loadbean.People">
+    <bean id="people" class="com.curtain.proficient._1ioc._5loadbean.People">
         <!--引用此配置文件的car-->
         <!--<property name="car" ref="car"></property>-->
 

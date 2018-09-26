@@ -3,10 +3,9 @@
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
        xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
 
-    <bean id="car" class="com.curtain.proficient._1ioc._5loadbean.Car">
-        <property name="color" value="红色"></property>
-        <property name="speed" value="20"></property>
-        <property name="name" value="bmw"></property>
-    </bean>
+
+    <bean id="car" class="com.curtain.proficient._1ioc._4beanlife.Car"
+          init-method="myInit"
+          destroy-method="myDestroy"></bean>
 
 </beans>
