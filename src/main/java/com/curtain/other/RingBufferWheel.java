@@ -153,6 +153,12 @@ public class RingBufferWheel {
         ringBuffer[index] = tasks;
     }
 
+    /**
+     * 找到符合本次的任务  在ringBuffer删除这个任务   同时返回这个任务（因为即将被执行）
+     *
+     * @param key
+     * @return
+     */
     private Set<Task> remove(int key) {
         Set<Task> tempTask = new HashSet<>();
         Set<Task> result = new HashSet<>();
